@@ -1,8 +1,5 @@
-package icu.cyclone.alex.university;
+package icu.cyclone.alex.Group;
 
-import lombok.Getter;
-
-@Getter
 public enum Faculty {
     JAVA("Java"),
     ANDROID("Android"),
@@ -11,9 +8,14 @@ public enum Faculty {
     WEBDESIGN("Web-Design"),
     QA("QA");
 
-    private String faculty;
+    private String name;
 
     Faculty(String faculty) {
-        this.faculty = faculty;
+        this.name = faculty;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

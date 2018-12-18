@@ -1,7 +1,7 @@
-package icu.cyclone.alex.university;
+package icu.cyclone.alex.Group;
 
 public class GroupLimitException extends RuntimeException {
-    public String getMessage(){
+    public String getMessage() {
         return "The maximum count of students in the group has been reached";
     }
 }

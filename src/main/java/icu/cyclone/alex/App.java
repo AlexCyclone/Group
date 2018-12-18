@@ -1,8 +1,11 @@
 package icu.cyclone.alex;
 
-public class App 
+import icu.cyclone.alex.Group.Group;
+
+public class App
 {
     public static void main( String[] args ) {
-        Test.run();
+        Group group = new Group();
+        group.runCli();
     }
 }

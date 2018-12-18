@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>icu.cyclone.alex</groupId>
-    <artifactId>university</artifactId>
+    <artifactId>group</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>University</name>
+    <name>Group</name>
     <url>http://</url>
 
     <!--From here-->

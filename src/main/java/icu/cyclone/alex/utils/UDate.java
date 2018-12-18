@@ -5,8 +5,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class Utils {
-    public static Calendar toCalendar(String source, String pattern) {
+public class UDate {
+    public static Calendar toCalendar(String source, String pattern) throws IllegalArgumentException {
         Calendar calendar = new GregorianCalendar();
         SimpleDateFormat sdf = new SimpleDateFormat(pattern);
         try {
